@@ -1,0 +1,14 @@
+# Ignorar ejecutables y compilados
+build/
+*.o
+*.out
+servidor_fotos
+
+# Ignorar archivos de sistema y VS Code
+.vscode/
+.DS_Store
+
+# Ignorar base de datos local y fotos de prueba
+*.db
+*.sqlite
+fotos_guardadas/
