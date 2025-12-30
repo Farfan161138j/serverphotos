@@ -3,7 +3,11 @@ build/
 *.o
 *.out
 servidor_fotos
-
+.env
+.env.development
+.env.test
+.env.production
+*.txt
 # Ignorar archivos de sistema y VS Code
 .vscode/
 .DS_Store
@@ -12,3 +16,6 @@ servidor_fotos
 *.db
 *.sqlite
 fotos_guardadas/
+node_modules
+# Dockerfile
+# docker-compose.yml
